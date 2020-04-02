@@ -7,7 +7,7 @@ class UserShow extends React.Component {
         super()
         this.state={
             users:{},
-            posts:{}
+            posts:[]
         }
     }
     componentDidMount(){

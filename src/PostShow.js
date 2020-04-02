@@ -7,7 +7,7 @@ class PostShow extends React.Component{
         super()
         this.state={
              user:{},
-             post:{},
+             posts:[],
              comments:[]
         }
     }
@@ -42,7 +42,6 @@ class PostShow extends React.Component{
     }
 
     render(){
-        {console.log("here")}
         return(
             <div>
                 <h2>USER NAME:{this.state.user.name}</h2>

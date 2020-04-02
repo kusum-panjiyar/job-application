@@ -19,7 +19,7 @@ function App(props) {
              <Route path='/userlist' component={UserList} exact={true}/>
              <Route path='/userslist/:userId' component={UserShow} />
              <Route path='/postlist' component={PostList} exact={true}/>
-             <Route path='/postslist/:userId' component={PostShow} />
+             <Route path='/post/:userId' component={PostShow} />
             </div>
         </BrowserRouter>
     )
